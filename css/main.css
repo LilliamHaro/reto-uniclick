@@ -61,18 +61,19 @@ h1, h2 , h3 , h4 , h5, p {
     height: 35vh;
     width: 100vw;
     padding: 20px;
+    position: relative;
 }
 .second-section {
     height: auto;
     width: 100vw;
     background-color: #D9534F;
-    position: relative;
     padding: 45px 30px 30px;
+    overflow: auto;
 }
 .shut-down-button {
     height: 15vw;
     position: absolute;
-    top: -20px;
+    bottom: -27px;
     left: 43vw;
     background-color: #fff;
     padding-inline-end: 5px;
@@ -100,7 +101,7 @@ h1, h2 , h3 , h4 , h5, p {
     padding: 15px 30px;
 }
 .copyrigth {
-    width: 60vw;
+    width: 55vw;
     display: inline-block
 }
 .uniclick-footer {
@@ -109,3 +110,35 @@ h1, h2 , h3 , h4 , h5, p {
     float: right;
     
 }
+/* tablet */
+@media (min-width: 600px) {
+    .first-section {
+        height: 25vh;
+    }
+
+    .shut-down-button {
+        height: 76px;   
+        left: 45vw;
+    }
+    .article{
+        width: 45vw;
+        float: left;
+        padding: 15px;
+    }
+    .ipad-container {
+        width: 600px;
+        padding:50px;
+        margin: auto;
+    }
+    .ipad-footer {
+        width: 500px;
+        margin: auto;
+    }
+    .copyrigth{
+        width: 70%;
+    }
+    .uniclick-footer {
+        line-height: 18px;    
+    }
+}
+/* tablet */
