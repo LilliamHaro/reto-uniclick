@@ -29,6 +29,12 @@
 .color-white {
     color: white
 }
+h1, h2 , h3 , h4 , h5, p {
+    font-weight: 300;
+}
+.mg-bottom-8 {
+    margin-bottom: 8px;
+}
 
 .flex-center {
     display: flex;
@@ -40,6 +46,7 @@
 }
 .img-responsive {
     max-height: 100%;
+    max-width: 100%;
 }
 .img-rounded {
     border-radius: 50%;
@@ -74,4 +81,31 @@
 
 .img-article {
     height: 200px;
+}
+
+.third-section {
+    padding: 30px;
+}
+.btn {
+    padding:12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c82333;
+    color: #fff;
+    font-weight: 300;
+}
+.footer {
+    background-color: #222222;
+    color: #999999;
+    padding: 15px 30px;
+}
+.copyrigth {
+    width: 60vw;
+    display: inline-block
+}
+.uniclick-footer {
+    line-height: 35px;
+    display: inline-block;
+    float: right;
+    
 }
