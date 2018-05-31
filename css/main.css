@@ -2,4 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.mg-top-bottom-19 {
+    margin: 19px 0;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center {
+    text-align: center;
+}
+.nav {
+    width: 100vw;
+    background-color: #222222;
+    padding: 15px 5vw;
+    color: grey;
+}
+.first-section {
+    height: 35vh;
+    width: 100vw;
+    padding: 20px;
+}
+.second-section {
+    height: 100px;;
+    width: 100vw;
+    background-color: #D9534F;
+
 }
