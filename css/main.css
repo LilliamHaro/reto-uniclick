@@ -141,4 +141,37 @@ h1, h2 , h3 , h4 , h5, p {
         line-height: 18px;    
     }
 }
-/* tablet */
+/* pc */
+@media (min-width: 900px) {
+    .third-section {
+        width: 50vw;
+    }
+    .article{
+        width: 23vw;
+        float: left;
+        padding: 15px;
+    }
+    .ipad-container {
+        width: 100vw;
+        padding:50px;
+        overflow: auto;
+    }
+    .float-rigth {
+        float: right;
+    }
+    .float-rigth img {
+        height: 400px;
+    }
+    .ipad-footer {
+        width: 100%;
+    }
+}
+@media (min-width: 1500px) {
+    .article{
+        width: 23vw;
+        float: left;
+        padding: 15px;
+        margin-right: 1vw;
+    }
+    
+}
