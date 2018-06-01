@@ -5,6 +5,12 @@
     font-family: 'Lato', sans-serif;
 }
 
+.display-inline-block {
+    display: inline-block;
+}
+.pd-rigth-20px {
+    padding-right: 20px; 
+}
 .mg-top-bottom-19 {
     margin: 19px 0;
 }
@@ -146,27 +152,49 @@ h1, h2 , h3 , h4 , h5, p {
 }
 /* pc */
 @media (min-width: 900px) {
+
+    .first-section{
+        padding: 17px 150px 55px;
+    }
+    .second-section {
+        padding: 45px 3vw 55px;
+    }
+    .shut-down-button {
+        height: 75px;   
+        left: 47vw;
+    }
     .third-section {
-        width: 50vw;
+        width: 90%;
     }
     .article{
         width: 23vw;
         float: left;
         padding: 15px;
     }
+    .div-70 {
+        width: 70%;
+    }
+    .display-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .ipad-container {
         /* width: 100vw; */
-        padding:50px;
+        padding: 30px 15px;
         overflow: auto;
+    }
+    .float-left {
+        float:left;
     }
     .float-rigth {
         float: right;
     }
-    .float-rigth img {
-        height: 400px;
+    .img {
+        width: 30%;
     }
     .ipad-footer {
-        /* width: 100%; */
+        width: 90%;
     }
 }
 @media (min-width: 1500px) {
@@ -174,7 +202,7 @@ h1, h2 , h3 , h4 , h5, p {
         width: 23vw;
         float: left;
         padding: 15px;
-        margin-right: 1vw;
+        margin-right: 0vw;
     }
     
 }
