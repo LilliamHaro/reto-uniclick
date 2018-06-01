@@ -8,6 +8,9 @@
 .mg-top-bottom-19 {
     margin: 19px 0;
 }
+.mg-bottom-19 {
+    margin-bottom: 19px;
+}
 .mg-top-bottom-12 {
     margin: 12px 0;
 }
@@ -52,22 +55,22 @@ h1, h2 , h3 , h4 , h5, p {
     border-radius: 50%;
 }
 .nav {
-    width: 100vw;
+    /* width: 100vw; */
     background-color: #222222;
     padding: 15px 8vw;
     color: grey;
 }
 .first-section {
-    height: 35vh;
-    width: 100vw;
-    padding: 20px;
+    /* height: 45vh; */
+    /* width: 100vw; */
+    padding: 17px 15px 55px;
     position: relative;
 }
 .second-section {
     height: auto;
-    width: 100vw;
+    /* width: 100vw; */
     background-color: #D9534F;
-    padding: 45px 30px 30px;
+    padding: 45px 30px 55px;
     overflow: auto;
 }
 .shut-down-button {
@@ -76,7 +79,7 @@ h1, h2 , h3 , h4 , h5, p {
     bottom: -27px;
     left: 43vw;
     background-color: #fff;
-    padding-inline-end: 5px;
+    padding: 5px;
     border-radius:50%;  
 }
 
@@ -152,7 +155,7 @@ h1, h2 , h3 , h4 , h5, p {
         padding: 15px;
     }
     .ipad-container {
-        width: 100vw;
+        /* width: 100vw; */
         padding:50px;
         overflow: auto;
     }
@@ -163,7 +166,7 @@ h1, h2 , h3 , h4 , h5, p {
         height: 400px;
     }
     .ipad-footer {
-        width: 100%;
+        /* width: 100%; */
     }
 }
 @media (min-width: 1500px) {
